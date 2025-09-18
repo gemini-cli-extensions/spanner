@@ -4,7 +4,7 @@ This Gemini CLI extension provides a set of tools to interact with [Google Cloud
 
 Learn more about [Gemini CLI Extensions](https://github.com/google-gemini/gemini-cli/blob/main/docs/extension.md).
 
-## Features
+## Why Use the Spanner Extension?
 
 * **Natural Language Management:** Stop wrestling with complex commands. Explore schemas and query data by describing what you want in plain English.
 * **Seamless Workflow:** As a Google-developed extension, it integrates seamlessly into the Gemini CLI environment. No need to constantly switch contexts for common database tasks.
