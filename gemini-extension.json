@@ -1,7 +1,7 @@
 {
-  "name": "Spanner",
+  "name": "spanner",
   "version": "0.1.0",
-  "description": "Connect to Spanner",
+  "description": "Connect and interact with Spanner data using natural language.",
   "mcpServers": {
     "Spanner": {
       "command": "${extensionPath}${/}toolbox",
