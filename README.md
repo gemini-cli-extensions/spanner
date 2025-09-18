@@ -25,7 +25,7 @@ Before you begin, ensure you have the following:
 
 ## Installation
 
-To install the extension, use the `gemini extensions install` command:
+To install the extension, use the command:
 
 ```bash
 gemini extensions install github.com/gemini-cli-extensions/spanner.git
