@@ -1,6 +1,6 @@
-# This file controls who is tagged for review for any given pull request.
+# This file controls who is tagged for review for any given pull request
 #
-# For syntax help see:
-# https://help.github.com/en/github/creating-cloning-and-archiving-repositories/about-code-owners#codeowners-syntax
+# For syntax help see
+# <https://help.github.com/en/github/creating-cloning-and-archiving-repositories/about-code-owners#codeowners-syntax>
 
-*   @googleapis/senseai-eco
+* @gemini-cli-extensions/senseai-eco @gemini-cli-extensions/spanner-maintainers 
