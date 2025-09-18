@@ -2,18 +2,13 @@
 
 This Gemini CLI extension provides a set of tools to interact with [Google Cloud Spanner](https://cloud.google.com/spanner/docs) instances. It allows you to manage your databases, execute queries, and explore schemas directly from the [Gemini CLI](https://google-gemini.github.io/gemini-cli/), using natural language prompts.
 
+Learn more about [Gemini CLI Extensions](https://github.com/google-gemini/gemini-cli/blob/main/docs/extension.md).
+
 ## Features
 
-*   **Integrated with Gemini CLI:** As a Google-developed extension, it integrates seamlessly into the Gemini CLI environment, making security an accessible part of your workflow.
-*   **Connect to Spanner:** Securely connect to your Spanner instances.
-*   **Explore Database Schema:** List instances, databases, and tables.
-*   **Query your Database:** Execute SQL queries against your database.
-
-## Supported Tools
-
-* list-tables: Use this tool to list tables and descriptions.
-* execute-sql: Use this tool to execute any SQL statement.
-* execute-sql-dql: Use this tool to execute DQL SQL statement.
+* **Natural Language Management:** Stop wrestling with complex commands. Explore schemas and query data by describing what you want in plain English.
+* **Seamless Workflow:** As a Google-developed extension, it integrates seamlessly into the Gemini CLI environment. No need to constantly switch contexts for common database tasks.
+* **Code Generation:** Accelerate development by asking Gemini to generate data classes and other code snippets based on your table schemas.
 
 ## Prerequisites
 
@@ -22,13 +17,15 @@ Before you begin, ensure you have the following:
 *   [Gemini CLI](https://github.com/google-gemini/gemini-cli) installed.
 *   A Google Cloud project with the **Spanner API** enabled.
 *   IAM Permissions
+    * Cloud Spanner Database Reader (`roles/spanner.databaseReader`)
+    * Cloud Spanner Database User (`roles/spanner.databaseUser`)
 
 ## Installation
 
 To install the extension, use the command:
 
 ```bash
-gemini extensions install github.com/gemini-cli-extensions/spanner.git
+gemini extensions install github.com/gemini-cli-extensions/spanner
 ```
 
 ## Configuration
@@ -36,19 +33,28 @@ gemini extensions install github.com/gemini-cli-extensions/spanner.git
 *   `SPANNER_PROJECT`: The GCP project ID.
 *   `SPANNER_INSTANCE`: The Spanner instance ID.
 *   `SPANNER_DATABASE`: The Spanner database ID.
-
+*   `SPANNER_DIALECT`: The Spanner database dialect e.g. "googlesql" or "postgresql"
 
 ## Usage
 
-* Provision Infrastructure
-* Explore Schemas and Data
-* Generate code
+*   **Explore Schemas and Data:**
+    * "Show me all tables in the 'orders' database."
+    * "What are the columns in the 'products' table?"
+    * "How many orders were placed in the last 30 days, and what were the top 5 most purchased items?"
 
+*   **Generate Code:**
+    * "Generate a Python dataclass to represent the 'customers' tab
 
-## Security
+## Supported Tools
 
-This extension executes commands against your Spanner database. Always review the generated SQL queries before execution, especially for write operations.
+* `list-tables`: Use this tool to list tables and descriptions.
+* `execute-sql`: Use this tool to execute any SQL statement.
+* `execute-sql-dql`: Use this tool to execute DQL SQL statement.
 
-## Disclaimer
+## Additional Extensions
 
-This is not an officially supported Google product. This extension is under active development, and breaking changes may be introduced.
+Find additional extensions to support your entire software development lifecycle at [github.com/gemini-cli-extensions](https://github.com/gemini-cli-extensions), including a generic [PostgreSQL extension](https://github.com/gemini-cli-extensions/postgres).
+
+## Troubleshooting
+
+* "cannot execute binary file": Ensure the correct binary for your OS/Architecture has been downloaded. See [Installing the server](https://googleapis.github.io/genai-toolbox/getting-started/introduction/#installing-the-server) for more information.
