@@ -30,6 +30,8 @@ gemini extensions install github.com/gemini-cli-extensions/spanner
 
 ## Configuration
 
+Set the following environment variables before starting the Gemini CLI:
+
 *   `SPANNER_PROJECT`: The GCP project ID.
 *   `SPANNER_INSTANCE`: The Spanner instance ID.
 *   `SPANNER_DATABASE`: The Spanner database ID.
