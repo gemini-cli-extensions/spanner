@@ -35,7 +35,7 @@ Set the following environment variables before starting the Gemini CLI:
 *   `SPANNER_PROJECT`: The GCP project ID.
 *   `SPANNER_INSTANCE`: The Spanner instance ID.
 *   `SPANNER_DATABASE`: The Spanner database ID.
-*   `SPANNER_DIALECT`: The Spanner database dialect e.g. "googlesql" or "postgresql"
+*   `SPANNER_DIALECT`: (Optional) The Spanner database dialect e.g. "googlesql" or "postgresql" (Default: "googlesql")
 
 ## Usage
 
@@ -49,9 +49,9 @@ Set the following environment variables before starting the Gemini CLI:
 
 ## Supported Tools
 
-* `list-tables`: Use this tool to list tables and descriptions.
-* `execute-sql`: Use this tool to execute any SQL statement.
-* `execute-sql-dql`: Use this tool to execute DQL SQL statement.
+* `list_tables`: Use this tool to list tables and descriptions.
+* `execute_sql`: Use this tool to execute any SQL statement.
+* `execute_sql_dql`: Use this tool to execute DQL SQL statement.
 
 ## Additional Extensions
 
