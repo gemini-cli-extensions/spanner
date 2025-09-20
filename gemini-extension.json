@@ -9,12 +9,7 @@
         "--prebuilt",
         "spanner",
         "--stdio"
-      ],
-      "env": {
-        "SPANNER_PROJECT": "${SPANNER_PROJECT}",
-        "SPANNER_INSTANCE": "${SPANNER_INSTANCE}",
-        "SPANNER_DATABASE": "${SPANNER_DATABASE}"
-      }
+      ]
     }
   },
   "contextFileName": "SPANNER.md"
