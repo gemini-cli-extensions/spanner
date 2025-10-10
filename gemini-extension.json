@@ -1,20 +1,15 @@
 {
   "name": "spanner",
-  "version": "0.0.0",
+  "version": "0.1.1",
   "description": "Connect and interact with Spanner data using natural language.",
   "mcpServers": {
-    "Spanner": {
+    "spanner": {
       "command": "${extensionPath}${/}toolbox",
       "args": [
         "--prebuilt",
         "spanner",
         "--stdio"
-      ],
-      "env": {
-        "SPANNER_PROJECT": "${SPANNER_PROJECT}",
-        "SPANNER_INSTANCE": "${SPANNER_INSTANCE}",
-        "SPANNER_DATABASE": "${SPANNER_DATABASE}"
-      }
+      ]
     }
   },
   "contextFileName": "SPANNER.md"
