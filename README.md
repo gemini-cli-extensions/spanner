@@ -46,10 +46,12 @@ gemini extensions install https://github.com/gemini-cli-extensions/spanner
 
 Set the following environment variables before starting the Gemini CLI. These variables can be loaded from a `.env` file.
 
-* `SPANNER_PROJECT`: The GCP project ID.
-* `SPANNER_INSTANCE`: The Spanner instance ID.
-* `SPANNER_DATABASE`: The Spanner database ID.
-* `SPANNER_DIALECT`: (Optional) The Spanner database dialect e.g. "googlesql" or "postgresql" (Default: "googlesql")
+```bash
+export SPANNER_PROJECT="<your-gcp-project-id>"
+export SPANNER_INSTANCE="<your-spanner-instance-id>"
+export SPANNER_DATABASE="<your-spanner-database-id>"
+export SPANNER_DIALECT="googlesql" # Optional: "googlesql" or "postgresql". Defaults to "googlesql".
+```
 
 Ensure [Application Default Credentials](https://cloud.google.com/docs/authentication/gcloud) are available in your environment.
 
