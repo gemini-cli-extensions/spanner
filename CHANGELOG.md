@@ -1,5 +1,16 @@
 # Changelog
 
+## [0.2.0](https://github.com/gemini-cli-extensions/spanner/compare/0.1.1...0.2.0) (2025-11-26)
+
+
+### ⚠ BREAKING CHANGES
+
+* **tools/spanner-list-tables:** Unmarshal `object_details` json string into map to make response have nested json ([genai-toolbox#​1894](https://redirect.github.com/googleapis/genai-toolbox/issues/1894)) ([446d62a](https://redirect.github.com/googleapis/genai-toolbox/commit/446d62acd995d5128f52e9db254dd1c7138227c6))
+
+### Features
+
+* **tools/spanner-list-tables:** Unmarshal `object_details` json string into map to make response have nested json ([genai-toolbox#​1894](https://redirect.github.com/googleapis/genai-toolbox/issues/1894)) ([446d62a](https://redirect.github.com/googleapis/genai-toolbox/commit/446d62acd995d5128f52e9db254dd1c7138227c6)) ([5215916](https://github.com/gemini-cli-extensions/spanner/commit/52159168bde85bda8e6094780362083cd6b929eb))
+
 ## [0.1.1](https://github.com/gemini-cli-extensions/spanner/compare/0.1.0...0.1.1) (2025-09-30)
 
 
