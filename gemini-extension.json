@@ -1,6 +1,6 @@
 {
   "name": "spanner",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Connect and interact with Spanner data using natural language.",
   "mcpServers": {
     "spanner": {

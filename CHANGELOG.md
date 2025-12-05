@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.1](https://github.com/gemini-cli-extensions/spanner/compare/0.2.0...0.2.1) (2025-12-05)
+
+
+### Features
+
+* **tools/spanner:** Add spanner list graphs to prebuiltconfigs ([genai-toolbox#​2056](https://redirect.github.com/googleapis/genai-toolbox/issues/2056)) ([0e7fbf4](https://redirect.github.com/googleapis/genai-toolbox/commit/0e7fbf465c488397aa9d8cab2e55165fff4eb53c)) ([4737df6](https://github.com/gemini-cli-extensions/spanner/commit/4737df6ccecaa3a9e1485aca14257527c2d80cb3))
+
 ## [0.2.0](https://github.com/gemini-cli-extensions/spanner/compare/0.1.1...0.2.0) (2025-11-26)
 
 
