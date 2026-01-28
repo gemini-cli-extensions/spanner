@@ -1,6 +1,6 @@
 {
   "name": "spanner",
-  "version": "0.2.1",
+  "version": "0.2.4",
   "description": "Connect and interact with Spanner data using natural language.",
   "mcpServers": {
     "spanner": {
@@ -12,5 +12,22 @@
       ]
     }
   },
-  "contextFileName": "SPANNER.md"
+  "contextFileName": "SPANNER.md",
+  "settings": [
+    {
+      "name": "Project ID",
+      "description": "ID of the Google Cloud project",
+      "envVar": "SPANNER_PROJECT"
+    },
+    {
+      "name": "Instance ID",
+      "description": "ID of the Spanner instance",
+      "envVar": "SPANNER_INSTANCE"
+    },
+    {
+      "name": "Database ID",
+      "description": "ID of the Spanner database",
+      "envVar": "SPANNER_DATABASE"
+    }
+  ]
 }

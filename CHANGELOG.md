@@ -1,5 +1,27 @@
 # Changelog
 
+## [0.2.4](https://github.com/gemini-cli-extensions/spanner/compare/0.2.3...0.2.4) (2026-01-27)
+
+
+### Features
+
+* add Configuration settings ([#73](https://github.com/gemini-cli-extensions/spanner/issues/73)) ([5c7cf28](https://github.com/gemini-cli-extensions/spanner/commit/5c7cf28d7b4773741e39a57c2b67b9b267e78e92))
+
+## [0.2.3](https://github.com/gemini-cli-extensions/spanner/compare/0.2.2...0.2.3) (2026-01-26)
+
+
+### Features
+
+* **deps:** update dependency googleapis/genai-toolbox to v0.26.0 ([#75](https://github.com/gemini-cli-extensions/spanner/issues/75)) ([7b8248b](https://github.com/gemini-cli-extensions/spanner/commit/7b8248b2754a1d8cf7315d4064830d2ecf9ccb5d))
+
+## [0.2.2](https://github.com/gemini-cli-extensions/spanner/compare/0.2.1...0.2.2) (2026-01-15)
+
+
+### Bug Fixes
+
+* **spanner:** Move list graphs validation to runtime ([genai-toolbox#​2154](https://redirect.github.com/googleapis/genai-toolbox/issues/2154)) ([914b3ee](https://redirect.github.com/googleapis/genai-toolbox/commit/914b3eefda40a650efe552d245369e007277dab5)) ([39e9e56](https://github.com/gemini-cli-extensions/spanner/commit/39e9e562a65351dd04dd165477a48222eea9d430))
+* List tables tools null fix ([genai-toolbox#​2107](https://redirect.github.com/googleapis/genai-toolbox/issues/2107)) ([2b45266](https://redirect.github.com/googleapis/genai-toolbox/commit/2b452665983154041d4cd0ed7d82532e4af682eb)) ([39e9e56](https://github.com/gemini-cli-extensions/spanner/commit/39e9e562a65351dd04dd165477a48222eea9d430))
+
 ## [0.2.1](https://github.com/gemini-cli-extensions/spanner/compare/0.2.0...0.2.1) (2025-12-05)
 
 

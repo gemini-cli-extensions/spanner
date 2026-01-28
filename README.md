@@ -81,6 +81,7 @@ gemini
 ## Supported Tools
 
 * `list_tables`: Use this tool to list tables and descriptions.
+* `list_graphs`: Use this tool to lists graphs in the database.
 * `execute_sql`: Use this tool to execute any SQL statement.
 * `execute_sql_dql`: Use this tool to execute DQL SQL statement.
 
