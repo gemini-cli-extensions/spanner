@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.4](https://github.com/gemini-cli-extensions/spanner/compare/0.2.3...0.2.4) (2026-01-27)
+
+
+### Features
+
+* add Configuration settings ([#73](https://github.com/gemini-cli-extensions/spanner/issues/73)) ([5c7cf28](https://github.com/gemini-cli-extensions/spanner/commit/5c7cf28d7b4773741e39a57c2b67b9b267e78e92))
+
 ## [0.2.3](https://github.com/gemini-cli-extensions/spanner/compare/0.2.2...0.2.3) (2026-01-26)
 
 
