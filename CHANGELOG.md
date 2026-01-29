@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.5](https://github.com/gemini-cli-extensions/spanner/compare/0.2.4...0.2.5) (2026-01-29)
+
+
+### Features
+
+* add dialect and configuration instructions ([#79](https://github.com/gemini-cli-extensions/spanner/issues/79)) ([a1dbc8c](https://github.com/gemini-cli-extensions/spanner/commit/a1dbc8c284fed0d3d1b3a0212f8399f66a46885d))
+
 ## [0.2.4](https://github.com/gemini-cli-extensions/spanner/compare/0.2.3...0.2.4) (2026-01-27)
 
 
