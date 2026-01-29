@@ -49,7 +49,7 @@ You will be prompted to configure the following settings during installation. Th
 *   `SPANNER_PROJECT`: The GCP project ID.
 *   `SPANNER_INSTANCE`: The Spanner instance ID.
 *   `SPANNER_DATABASE`: The Spanner database ID.
-*   `SPANNER_DIALECT`: (Optional) "googlesql" or "postgresql". Defaults to "googlesql".
+*   `SPANNER_DIALECT`: (Optional) The SQL dialect of the Spanner database: 'googlesql' or 'postgresql'. Defaults to "googlesql".
 
 To view or update your configuration:
 
