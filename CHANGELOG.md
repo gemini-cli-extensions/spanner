@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.6](https://github.com/gemini-cli-extensions/spanner/compare/0.2.5...0.2.6) (2026-02-18)
+
+
+### Features
+
+* **deps:** update dependency googleapis/genai-toolbox to v0.27.0 ([#83](https://github.com/gemini-cli-extensions/spanner/issues/83)) ([0a7c828](https://github.com/gemini-cli-extensions/spanner/commit/0a7c828af00ac9aa79f690975ea279c4799ab8be))
+
 ## [0.2.5](https://github.com/gemini-cli-extensions/spanner/compare/0.2.4...0.2.5) (2026-01-29)
 
 
