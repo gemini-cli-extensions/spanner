@@ -1,6 +1,6 @@
 {
   "name": "spanner",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "description": "Connect and interact with Spanner data using natural language.",
   "mcpServers": {
     "spanner": {
@@ -20,14 +20,19 @@
       "envVar": "SPANNER_PROJECT"
     },
     {
-      "name": "Instance ID",
+      "name": "Instance",
       "description": "ID of the Spanner instance",
       "envVar": "SPANNER_INSTANCE"
     },
     {
-      "name": "Database ID",
+      "name": "Database",
       "description": "ID of the Spanner database",
       "envVar": "SPANNER_DATABASE"
+    },
+    {
+      "name": "Database Dialect",
+      "description": "(Optional) The SQL dialect of the Spanner Database: 'googlesql' or 'postgresql'. (Default: 'googlesql')",
+      "envVar": "SPANNER_DIALECT"
     }
   ]
 }
