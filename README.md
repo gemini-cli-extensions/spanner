@@ -231,13 +231,9 @@ The following skills are available in this repository:
 
 - [Spanner Data](./skills/spanner-data/SKILL.md) - Use these skills when you need to explore the database structure, discover schema objects like tables and graphs, and execute custom SQL queries to interact with your data.
 
-## Additional Agent Skills
+## Additional Extensions
 
-Find additional skills to support your entire software development lifecycle at [github.com/gemini-cli-extensions](https://github.com/gemini-cli-extensions), including:
-
-- [Generic PostgreSQL skills](https://github.com/gemini-cli-extensions/postgres)
-- [Cloud SQL for PostgreSQL skills](https://github.com/gemini-cli-extensions/cloud-sql-postgresql)
-- and more!
+Find additional extensions to support your entire software development lifecycle at [github.com/gemini-cli-extensions](https://github.com/gemini-cli-extensions).
 
 ## Troubleshooting
 
