@@ -2,16 +2,6 @@
   "name": "spanner",
   "version": "0.2.6",
   "description": "Connect and interact with Spanner data using natural language.",
-  "mcpServers": {
-    "spanner": {
-      "command": "${extensionPath}${/}toolbox",
-      "args": [
-        "--prebuilt",
-        "spanner",
-        "--stdio"
-      ]
-    }
-  },
   "contextFileName": "SPANNER.md",
   "settings": [
     {
