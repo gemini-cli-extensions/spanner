@@ -1,5 +1,34 @@
 # Changelog
 
+## [0.3.0](https://github.com/gemini-cli-extensions/spanner/compare/0.2.6...0.3.0) (2026-04-15)
+
+
+### ⚠ BREAKING CHANGES
+
+* add support for skills ([#105](https://github.com/gemini-cli-extensions/spanner/issues/105)) ([9b89c1f](https://github.com/gemini-cli-extensions/spanner/commit/9b89c1fed5d36dfd65ce7d0bfbe9a455ee90d4a8))
+* update repo name ([mcp-toolbox#​2968](https://redirect.github.com/googleapis/mcp-toolbox/issues/2968))
+
+### Features
+
+* **source/spanner:** Restructure prebuilt toolsets ([mcp-toolbox#​2641](https://redirect.github.com/googleapis/mcp-toolbox/issues/2641)) ([ea2b698](https://redirect.github.com/googleapis/mcp-toolbox/commit/ea2b698b03517c400bbaef27f56c4d3abead8b2c)) ([267c8c3](https://github.com/gemini-cli-extensions/spanner/commit/267c8c3ca8641d966778a435f1e2c43b6f7129e4))
+* **skill:** Attach user agent metadata for generated skill ([mcp-toolbox#​2697](https://redirect.github.com/googleapis/mcp-toolbox/issues/2697)) ([9598a6a](https://redirect.github.com/googleapis/mcp-toolbox/commit/9598a6a32597b9c9abdb0f20c06d86a01b0d011f)) ([267c8c3](https://github.com/gemini-cli-extensions/spanner/commit/267c8c3ca8641d966778a435f1e2c43b6f7129e4))
+* **skill:** Update skill generation logic ([mcp-toolbox#​2646](https://redirect.github.com/googleapis/mcp-toolbox/issues/2646)) ([c233eee](https://redirect.github.com/googleapis/mcp-toolbox/commit/c233eee98cd9621526cb286245f3874f5bd6e7da)) ([267c8c3](https://github.com/gemini-cli-extensions/spanner/commit/267c8c3ca8641d966778a435f1e2c43b6f7129e4)) ([mcp-toolbox#​2733](https://redirect.github.com/googleapis/mcp-toolbox/issues/2733)) ([5b85c65](https://redirect.github.com/googleapis/mcp-toolbox/commit/5b85c65960dba9bfaf4cadca6d44532a153976e1)) ([267c8c3](https://github.com/gemini-cli-extensions/spanner/commit/267c8c3ca8641d966778a435f1e2c43b6f7129e4))
+* **skills:** Add additional-notes flag to generate skills command ([mcp-toolbox#​2696](https://redirect.github.com/googleapis/mcp-toolbox/issues/2696)) ([73bf962](https://redirect.github.com/googleapis/mcp-toolbox/commit/73bf962459b76872f748248bb5e289be232a30b6)) ([267c8c3](https://github.com/gemini-cli-extensions/spanner/commit/267c8c3ca8641d966778a435f1e2c43b6f7129e4))
+* **skills:** Add Claude Code support to generated scripts ([mcp-toolbox#​2966](https://redirect.github.com/googleapis/mcp-toolbox/issues/2966)) ([a1609e1](https://redirect.github.com/googleapis/mcp-toolbox/commit/a1609e10a2eaf4ea68eae36acec3eed355b8a052)) ([267c8c3](https://github.com/gemini-cli-extensions/spanner/commit/267c8c3ca8641d966778a435f1e2c43b6f7129e4))
+* **skills:** Add codex user agent ([mcp-toolbox#​2973](https://redirect.github.com/googleapis/mcp-toolbox/issues/2973)) ([070e939](https://redirect.github.com/googleapis/mcp-toolbox/commit/070e9399c02f088d43175ce6bf343378beb7f584)) ([267c8c3](https://github.com/gemini-cli-extensions/spanner/commit/267c8c3ca8641d966778a435f1e2c43b6f7129e4))
+* **skills:** Tool invocation via npx ([mcp-toolbox#​2916](https://redirect.github.com/googleapis/mcp-toolbox/issues/2916)) ([377dc5b](https://redirect.github.com/googleapis/mcp-toolbox/commit/377dc5b00145a0044eef39314dd6b0ef5966fcd7)) ([267c8c3](https://github.com/gemini-cli-extensions/spanner/commit/267c8c3ca8641d966778a435f1e2c43b6f7129e4))
+* add Claude Code plugin config ([#107](https://github.com/gemini-cli-extensions/spanner/issues/107)) ([9e4007d](https://github.com/gemini-cli-extensions/spanner/commit/9e4007d2bf3dd71757e247bdc765f669c2ebd7c4))
+* add Codex plugin config ([#109](https://github.com/gemini-cli-extensions/spanner/issues/109)) ([e91ea1b](https://github.com/gemini-cli-extensions/spanner/commit/e91ea1bfd7155eaceda4f82dc630ac5708c7c295))
+
+
+### Bug Fixes
+
+* **skill:** Fix env variable propagation ([mcp-toolbox#​2645](https://redirect.github.com/googleapis/mcp-toolbox/issues/2645)) ([5271368](https://redirect.github.com/googleapis/mcp-toolbox/commit/52713687208994c423da64333cb0a04fb483f794)) ([267c8c3](https://github.com/gemini-cli-extensions/spanner/commit/267c8c3ca8641d966778a435f1e2c43b6f7129e4))
+* **skills:** Fix integer parameter parsing through agent skills ([mcp-toolbox#​2847](https://redirect.github.com/googleapis/mcp-toolbox/issues/2847)) ([4564efe](https://redirect.github.com/googleapis/mcp-toolbox/commit/4564efe75436b4081d9f3d1f7c912bc64c13f850)) ([267c8c3](https://github.com/gemini-cli-extensions/spanner/commit/267c8c3ca8641d966778a435f1e2c43b6f7129e4))
+* **skills:** Fix skill generation template ([mcp-toolbox#​2914](https://redirect.github.com/googleapis/mcp-toolbox/issues/2914)) ([a01a15e](https://redirect.github.com/googleapis/mcp-toolbox/commit/a01a15ed1aa9a83eda8362578fed2e3a3c8dde99)) ([267c8c3](https://github.com/gemini-cli-extensions/spanner/commit/267c8c3ca8641d966778a435f1e2c43b6f7129e4))
+* **skills:** Improve flag validation and silence unit test output ([mcp-toolbox#​2759](https://redirect.github.com/googleapis/mcp-toolbox/issues/2759)) ([f3da6aa](https://redirect.github.com/googleapis/mcp-toolbox/commit/f3da6aa5e23b609a1ac9ecc098bccea02f2388ab)) ([267c8c3](https://github.com/gemini-cli-extensions/spanner/commit/267c8c3ca8641d966778a435f1e2c43b6f7129e4))
+* **skills:** Prevent empty strings overriding optional env vars in node scripts ([mcp-toolbox#​2963](https://redirect.github.com/googleapis/mcp-toolbox/issues/2963)) ([c52adeb](https://redirect.github.com/googleapis/mcp-toolbox/commit/c52adeba76fc13d0e6e415f6393def0648e478d6)) ([267c8c3](https://github.com/gemini-cli-extensions/spanner/commit/267c8c3ca8641d966778a435f1e2c43b6f7129e4))
+
 ## [0.2.6](https://github.com/gemini-cli-extensions/spanner/compare/0.2.5...0.2.6) (2026-02-18)
 
 
