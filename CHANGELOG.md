@@ -17,10 +17,8 @@
 * **skills:** Add Claude Code support to generated scripts ([mcp-toolbox#​2966](https://redirect.github.com/googleapis/mcp-toolbox/issues/2966)) ([a1609e1](https://redirect.github.com/googleapis/mcp-toolbox/commit/a1609e10a2eaf4ea68eae36acec3eed355b8a052)) ([267c8c3](https://github.com/gemini-cli-extensions/spanner/commit/267c8c3ca8641d966778a435f1e2c43b6f7129e4))
 * **skills:** Add codex user agent ([mcp-toolbox#​2973](https://redirect.github.com/googleapis/mcp-toolbox/issues/2973)) ([070e939](https://redirect.github.com/googleapis/mcp-toolbox/commit/070e9399c02f088d43175ce6bf343378beb7f584)) ([267c8c3](https://github.com/gemini-cli-extensions/spanner/commit/267c8c3ca8641d966778a435f1e2c43b6f7129e4))
 * **skills:** Tool invocation via npx ([mcp-toolbox#​2916](https://redirect.github.com/googleapis/mcp-toolbox/issues/2916)) ([377dc5b](https://redirect.github.com/googleapis/mcp-toolbox/commit/377dc5b00145a0044eef39314dd6b0ef5966fcd7)) ([267c8c3](https://github.com/gemini-cli-extensions/spanner/commit/267c8c3ca8641d966778a435f1e2c43b6f7129e4))
-
 * add Claude Code plugin config ([#107](https://github.com/gemini-cli-extensions/spanner/issues/107)) ([9e4007d](https://github.com/gemini-cli-extensions/spanner/commit/9e4007d2bf3dd71757e247bdc765f669c2ebd7c4))
 * add Codex plugin config ([#109](https://github.com/gemini-cli-extensions/spanner/issues/109)) ([e91ea1b](https://github.com/gemini-cli-extensions/spanner/commit/e91ea1bfd7155eaceda4f82dc630ac5708c7c295))
-
 
 
 ### Bug Fixes
