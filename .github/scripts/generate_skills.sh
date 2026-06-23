@@ -13,6 +13,9 @@ fi
 SKILLS=(
   "data"
   "Use these skills when you need to explore the database structure, discover schema objects like tables and graphs, and execute custom SQL queries to interact with your data."
+
+  "data_with_discovery"
+  "Use these skills when you need to explore the database structure, discover schema objects like tables and graphs, execute custom SQL queries, and search the data catalog to find relevant instances, databases, tables, or views."
 )
 
 echo "VALIDATING TOOLSETS BEFORE GENERATION"
