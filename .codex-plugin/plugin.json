@@ -1,6 +1,6 @@
 {
   "name": "spanner",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "Connect and interact with Spanner data using natural language.",
   "author": {
     "name": "Google LLC",
