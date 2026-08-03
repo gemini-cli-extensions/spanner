@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.3](https://github.com/gemini-cli-extensions/spanner/compare/0.3.2...0.3.3) (2026-08-03)
+
+
+### Features
+
+* **plugin:** support agent plugin spec ([#126](https://github.com/gemini-cli-extensions/spanner/issues/126)) ([265099e](https://github.com/gemini-cli-extensions/spanner/commit/265099e3554f127af821f17b22b924385d85e9b3))
+
 ## [0.3.2](https://github.com/gemini-cli-extensions/spanner/compare/0.3.1...0.3.2) (2026-07-10)
 
 
