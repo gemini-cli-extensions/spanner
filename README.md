@@ -23,6 +23,7 @@ This repository provides a set of agent skills to interact with [Google Cloud Sp
     - [Claude Code](#claude-code)
     - [Codex](#codex)
     - [Antigravity](#antigravity)
+- [Installing via a compatible Agent Plugins client](#installing-via-a-compatible-agent-plugins-client)
 - [Usage Examples](#usage-examples)
 - [Supported Skills](#supported-skills)
 - [Additional Agent Skills](#additional-agent-skills)
@@ -211,6 +212,19 @@ Set your environment vars as described in the [configuration section](#configura
 _(Tip: Antigravity automatically discovers skills in these directories at the start of a session.)_
 
 </details>
+
+## Installing via a compatible Agent Plugins client
+
+This repository is a valid [Agent Plugins](https://github.com/agentplugins/agent-plugins-spec) (v1) plugin. Any [Agent Plugins–compatible client](https://agent-plugins.org/compatible-clients) can install it directly using its own built-in plugin command — no extra tooling required — by pointing at this repository:
+
+```
+https://github.com/gemini-cli-extensions/spanner
+```
+
+Beyond harnesses covered by the native install above, compatible clients include VS Code, Cursor, GitHub Copilot, and Kiro. See your agent's documentation for its exact install command.
+
+**Set env vars:**
+Set your environment vars as described in the [configuration section](#configuration).
 
 <!-- {x-release-please-end} -->
 
