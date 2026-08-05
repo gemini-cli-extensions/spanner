@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.4](https://github.com/gemini-cli-extensions/spanner/compare/0.3.3...0.3.4) (2026-08-05)
+
+
+### Features
+
+* **deps:** update dependency googleapis/mcp-toolbox to v1.8.0 ([#125](https://github.com/gemini-cli-extensions/spanner/issues/125)) ([fa88644](https://github.com/gemini-cli-extensions/spanner/commit/fa886441aecdc9bbba6842c15fdb9f2bcfb72130))
+
 ## [0.3.3](https://github.com/gemini-cli-extensions/spanner/compare/0.3.2...0.3.3) (2026-08-03)
 
 
