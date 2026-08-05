@@ -22,6 +22,8 @@ This repository provides a set of agent skills to interact with [Google Cloud Sp
     - [Antigravity](#antigravity)
     - [Claude Code](#claude-code)
     - [Codex](#codex)
+- [Installing using open agent skills tool](#installing-using-open-agent-skills-tool)
+- [Installing via a compatible Agent Plugins client](#installing-via-a-compatible-agent-plugins-client)
 - [Usage Examples](#usage-examples)
 - [Supported Skills](#supported-skills)
 - [Additional Agent Skills](#additional-agent-skills)
@@ -79,8 +81,8 @@ For the latest version, check the [releases page][releases].
 <summary id="antigravity">Antigravity</summary>
 
 You can use either of these two agents for Antigravity:
-- [Antigravity CLI](https://github.com/google-gemini/gemini-cli) version **v0.3.2** or higher
-- [Antigravity 2.0](https://antigravity.google/product/antigravity-2) version **v0.3.2** or higher.
+- [Antigravity CLI](https://github.com/google-gemini/gemini-cli) version **v0.3.3** or higher
+- [Antigravity 2.0](https://antigravity.google/product/antigravity-2) version **v0.3.3** or higher.
 
 <blockquote>
 💡 <strong>Tip — Migrating from Gemini CLI?</strong><br>
@@ -99,7 +101,7 @@ See <a href="https://antigravity.google/docs/gcli-migration">Migrating from Gemi
 **1. Clone the Repo:**
 
 ```bash
-git clone --branch 0.3.2 https://github.com/gemini-cli-extensions/spanner.git
+git clone --branch 0.3.3 https://github.com/gemini-cli-extensions/spanner.git
 ```
 
 **2. Install the skills:**
@@ -190,12 +192,25 @@ You can install skills using the `npx skills` command.
 Run the following command in your terminal to automatically download and register the skills:
 
 ```bash
-npx skills add https://github.com/gemini-cli-extensions/spanner/tree/0.3.2
+npx skills add https://github.com/gemini-cli-extensions/spanner/tree/0.3.3
 ```
 
 For detailed info check out the [Skills npm package](https://www.npmjs.com/package/skills).
 
 **2. Set env vars:**
+Set your environment vars as described in the [configuration section](#configuration).
+
+## Installing via a compatible Agent Plugins client
+
+This repository is a valid [Agent Plugins](https://github.com/agentplugins/agent-plugins-spec) (v1) plugin. Any [Agent Plugins–compatible client](https://agent-plugins.org/compatible-clients) can install it directly using its own built-in plugin command — no extra tooling required — by pointing at this repository:
+
+```
+https://github.com/gemini-cli-extensions/spanner
+```
+
+Beyond harnesses covered by the native install above, compatible clients include VS Code, Cursor, GitHub Copilot, and Kiro. See your agent's documentation for its exact install command.
+
+**Set env vars:**
 Set your environment vars as described in the [configuration section](#configuration).
 
 <!-- {x-release-please-end} -->

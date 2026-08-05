@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.3](https://github.com/gemini-cli-extensions/spanner/compare/0.3.2...0.3.3) (2026-08-03)
+
+
+### Features
+
+* **plugin:** support agent plugin spec ([#126](https://github.com/gemini-cli-extensions/spanner/issues/126)) ([265099e](https://github.com/gemini-cli-extensions/spanner/commit/265099e3554f127af821f17b22b924385d85e9b3))
+
 ## [0.3.2](https://github.com/gemini-cli-extensions/spanner/compare/0.3.1...0.3.2) (2026-07-10)
 
 
@@ -44,7 +51,7 @@
 * **tool/spanner-sql,tool/spanner-execute-sql:** Use read-only annotations when readOnly is set ([mcp-toolbox#​3338](https://redirect.github.com/googleapis/mcp-toolbox/issues/3338)) ([8bde0ec](https://redirect.github.com/googleapis/mcp-toolbox/commit/8bde0ec08f8bf455f319523b4faacf32bdbc65ff)) ([49be417](https://github.com/gemini-cli-extensions/spanner/commit/49be417d6a5451e0f244733f5da7f5be2029caa7))
 * **tools:** Initialize query result slices to empty array ([mcp-toolbox#​3250](https://redirect.github.com/googleapis/mcp-toolbox/issues/3250)) ([60ddf48](https://redirect.github.com/googleapis/mcp-toolbox/commit/60ddf487468bfd11c7f9346f16a33a8986f89f84)) ([49be417](https://github.com/gemini-cli-extensions/spanner/commit/49be417d6a5451e0f244733f5da7f5be2029caa7))
 * Bound MCP HTTP body size ([mcp-toolbox#​3216](https://redirect.github.com/googleapis/mcp-toolbox/issues/3216)) ([d4f4342](https://redirect.github.com/googleapis/mcp-toolbox/commit/d4f434251392fb597779a90a12c63d21533ea187)) ([49be417](https://github.com/gemini-cli-extensions/spanner/commit/49be417d6a5451e0f244733f5da7f5be2029caa7))
-* Escape delimiter characters in applyEscape to prevent SQL injection ([mcp-toolbox#​2811](https://redirect.github.com/googleapis/mcp-toolbox/issues/2811)) ([932519a](https://redirect.github.com/googleapis/mcp-toolbox/commit/932519a9551861bf5f18787dc43b20d06350343f)) ([49be417](https://github.com/gemini-cli-extensions/spanner/commit/49be417d6a5451e0f244733f5da7f5be2029caa7))
+* Escape delimiter characters in applyEscape to prevent SQL injection ([932519a](https://redirect.github.com/googleapis/mcp-toolbox/commit/932519a9551861bf5f18787dc43b20d06350343f)) ([49be417](https://github.com/gemini-cli-extensions/spanner/commit/49be417d6a5451e0f244733f5da7f5be2029caa7))
 
 ## [0.3.1](https://github.com/gemini-cli-extensions/spanner/compare/0.3.0...0.3.1) (2026-05-07)
 
