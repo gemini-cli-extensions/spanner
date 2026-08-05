@@ -1,4 +1,5 @@
 {
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "spanner",
   "version": "0.3.4",
   "description": "Connect and interact with Spanner data using natural language.",
@@ -7,7 +8,11 @@
     "email": "data-cloud-ai-integrations@google.com"
   },
   "homepage": "https://cloud.google.com/spanner",
-  "license": "Apache-2.0",
   "repository": "https://github.com/gemini-cli-extensions/spanner",
-  "skills": "./skills/"
+  "license": "Apache-2.0",
+  "keywords": [
+    "spanner",
+    "google-cloud",
+    "database"
+  ]
 }
