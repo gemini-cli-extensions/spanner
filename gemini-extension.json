@@ -1,6 +1,6 @@
 {
   "name": "spanner",
-  "version": "0.3.4",
+  "version": "0.3.5",
   "description": "Connect and interact with Spanner data using natural language.",
   "contextFileName": "SPANNER.md",
   "settings": [
