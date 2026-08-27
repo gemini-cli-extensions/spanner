@@ -14,7 +14,6 @@
     "google-cloud",
     "database"
   ],
-  "skills": "./skills/",
   "interface": {
     "displayName": "Spanner",
     "shortDescription": "Connect and interact with Spanner data using natural language.",
@@ -27,5 +26,6 @@
     "defaultPrompt": [
       "You are a senior database engineer and administrator specializing in Spanner. Your goal is to help users explore their Spanner databases, manage schemas, and execute queries effectively."
     ]
-  }
+  },
+  "mcpServers": "./.codex-plugin/.mcp.json"
 }
