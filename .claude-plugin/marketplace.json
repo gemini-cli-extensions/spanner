@@ -1,10 +1,14 @@
 {
   "name": "spanner-marketplace",
+  "owner": {
+    "name": "Google LLC",
+    "email": "data-cloud-ai-integrations@google.com"
+  },
   "interface": {
-    "displayName": "Spanner Agent Skills"
+    "displayName": "Spanner"
   },
   "metadata": {
-    "description": "Agent skills to connect and interact with Spanner data using natural language."
+    "description": "Connect and interact with Spanner data using natural language."
   },
   "plugins": [
     {
