@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.6](https://github.com/gemini-cli-extensions/spanner/compare/0.3.5...0.3.6) (2026-09-05)
+
+
+### Features
+
+* **plugin:** migrate from generated skills to the prebuilt MCP server ([#133](https://github.com/gemini-cli-extensions/spanner/issues/133)) ([2850832](https://github.com/gemini-cli-extensions/spanner/commit/285083230eb7747f7cc512a75c22e05f8cc87eeb))
+
 ## [0.3.5](https://github.com/gemini-cli-extensions/spanner/compare/0.3.4...0.3.5) (2026-08-14)
 
 
