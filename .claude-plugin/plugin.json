@@ -7,7 +7,50 @@
     "email": "data-cloud-ai-integrations@google.com"
   },
   "homepage": "https://cloud.google.com/spanner",
-  "license": "Apache-2.0",
   "repository": "https://github.com/gemini-cli-extensions/spanner",
-  "skills": "./skills/"
+  "license": "Apache-2.0",
+  "userConfig": {
+    "spanner_project": {
+      "title": "Project ID",
+      "description": "ID of the Google Cloud project",
+      "type": "string",
+      "sensitive": false
+    },
+    "spanner_instance": {
+      "title": "Instance",
+      "description": "ID of the Spanner instance",
+      "type": "string",
+      "sensitive": false
+    },
+    "spanner_database": {
+      "title": "Database",
+      "description": "ID of the Spanner database",
+      "type": "string",
+      "sensitive": false
+    },
+    "spanner_dialect": {
+      "title": "Database Dialect",
+      "description": "(Optional) The SQL dialect of the Spanner Database: 'googlesql' or 'postgresql'. (Default: 'googlesql')",
+      "type": "string",
+      "sensitive": false
+    }
+  },
+  "mcpServers": {
+    "spanner": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@toolbox-sdk/server@1.9.0",
+        "--prebuilt",
+        "spanner",
+        "--stdio"
+      ],
+      "env": {
+        "SPANNER_PROJECT": "${user_config.spanner_project}",
+        "SPANNER_INSTANCE": "${user_config.spanner_instance}",
+        "SPANNER_DATABASE": "${user_config.spanner_database}",
+        "SPANNER_DIALECT": "${user_config.spanner_dialect}"
+      }
+    }
+  }
 }

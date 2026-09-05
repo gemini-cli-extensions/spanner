@@ -14,5 +14,50 @@
     "spanner",
     "google-cloud",
     "database"
-  ]
+  ],
+  "extensions": {
+    "com.google.cloud.data.agent-plugins": {
+      "config": [
+        {
+          "key": "SPANNER_PROJECT",
+          "title": "Project ID",
+          "description": "ID of the Google Cloud project"
+        },
+        {
+          "key": "SPANNER_INSTANCE",
+          "title": "Instance",
+          "description": "ID of the Spanner instance"
+        },
+        {
+          "key": "SPANNER_DATABASE",
+          "title": "Database",
+          "description": "ID of the Spanner database"
+        },
+        {
+          "key": "SPANNER_DIALECT",
+          "title": "Database Dialect",
+          "description": "(Optional) The SQL dialect of the Spanner Database: 'googlesql' or 'postgresql'. (Default: 'googlesql')"
+        }
+      ],
+      "gemini": {
+        "mcpServerName": "spanner",
+        "contextFileName": "SPANNER.md"
+      },
+      "codex": {
+        "interface": {
+          "displayName": "Spanner",
+          "shortDescription": "Connect and interact with Spanner data using natural language.",
+          "developerName": "Google LLC",
+          "category": "Database",
+          "capabilities": [
+            "Read",
+            "Write"
+          ],
+          "defaultPrompt": [
+            "You are a senior database engineer and administrator specializing in Spanner. Your goal is to help users explore their Spanner databases, manage schemas, and execute queries effectively."
+          ]
+        }
+      }
+    }
+  }
 }
